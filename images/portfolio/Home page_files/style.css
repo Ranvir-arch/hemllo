@@ -1,0 +1,327 @@
+/* #################################### Start-Header #################################### */
+
+/* #################################### Start-NavBar #################################### */
+
+header .navbar{
+    background-color: #dd4b39;
+    z-index: 999;
+    padding: 1rem 2rem;
+}
+
+header .navbar li{
+    display: flex;
+}
+
+header .navbar li a span{
+    color: #333;
+    transition: 0.5s;
+}
+
+header .navbar li a{
+    color: #333;
+    background: #fff;
+    transition: 0.5s;
+    height: 2rem;
+    width: 5rem;
+    text-align: center;
+}
+
+header .navbar li a{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    position: relative;
+    transition: 0.5s;
+}
+header .navbar li a::before{
+    content: '';
+    position: absolute;
+    top: 0.291rem;
+    left: -0.6005rem;
+    height: 100%;
+    width: 0.6rem;
+    background: #cecece;
+    transition: 0.5s;
+    transform: skewY(-45deg);
+}
+header .navbar li a::after{
+    content: '';
+    position: absolute;
+    bottom: -0.6rem;
+    left: -0.299rem;
+    height: 0.6rem;
+    width: 100%;
+    background: #cecece;
+    transition: 0.5s;
+    transform: skewX(-45deg);
+}
+
+header .navbar li:hover i{
+    color: #fff;
+}
+header .navbar li:hover span{
+    color: #fff;
+}
+header .navbar li:hover a{
+    background: #dd4b39;
+    transform: translate(5px, -5px);
+    box-shadow: -50px 50px 50px rgba(0, 0, 0, 1);
+}
+header .navbar li:hover a::before{
+    background: #b33a2b;
+}
+header .navbar li:hover a::after{
+    background: #e66a5a;
+}
+
+header .navbar-brand{
+    margin-inline-end: 2rem;
+}
+
+header .navbar-nav{
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    margin-inline-start: -8rem;
+}  
+
+header .navbar li{
+    margin: 0 1.5rem;
+}
+
+header .navbar .login{
+    position: absolute;
+    right: 8rem;
+}
+
+header .ulist li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+header .ulist li{
+    list-style: none;
+}
+
+header #navbarSupportedContent .p-4{
+    background-color: #004c74;
+    list-style: none;
+}
+
+header .btn:hover{
+    border: 2px solid #004c74;
+    color: #004c74;
+    background-color: whitesmoke;
+}
+
+header .btn{
+    color: whitesmoke;
+    background-color: #004c74;
+    border: 2px solid white;
+}
+
+header .xoxo{
+    width: 9rem;
+    height: auto;
+}
+
+header .navbar-nav{
+    margin-right: 10rem;
+}
+
+@media only screen and (min-width: 1013px) and (max-width: 1140px){
+    header .navbar .login{
+        position: absolute;
+        right: 8rem;
+    }
+
+    header .navbar{
+        margin: 0 -9rem 0 0;
+    }
+}
+
+header .search{
+    display: flex;
+    width: 17rem;
+    background-color: #dd4b39;
+    border: #dd4b39;
+}
+
+@media only screen and (min-width: 754px) and (max-width: 1014px){
+    header .search{
+        margin-right: 10rem;
+    }
+
+    
+}
+@media only screen and (min-width: 700px) and (max-width: 755px){
+    header .search{
+        margin-right: 16rem;
+    }
+    header .navbar .login{
+        position: absolute;
+        left: 24rem;
+        bottom: 1.5rem;
+    }
+}
+@media only screen and (min-width: 340px) and (max-width: 707px){
+    header .search{
+        width: 100%;
+        position: absolute;
+        margin-top: 7rem;
+        right: 0.0000000000000000000000000000001rem;
+    }
+    header .navbar .login{
+        position: absolute;
+        right: 8rem;
+    }
+    header .ulist{
+        margin-top: 2rem;
+    }
+    
+    header .xoxo{
+        width: 6rem;
+        height: auto;
+    }
+
+}
+@media only screen and (max-width: 341px){
+    header .search{
+        width: 100%;
+        position: absolute;
+        margin-top: 7rem;
+        right: 0.0000000000000000000000000000001rem;
+    }
+    header .navbar .login{
+        position: absolute;
+        right: 9rem;
+        height: auto;
+        width: 2rem;
+    }
+    header .ulist{
+        margin-top: 2rem;
+    }
+    
+    header .xoxo{
+        width: 5rem;
+        height: auto;
+        position: absolute;
+        left: 0rem;
+        bottom: 2rem;
+    }
+
+}
+
+
+
+/* #################################### End-NavBar #################################### */
+
+    .category{
+        background-color: #004c74;
+        width: 100%;
+    }
+    .category .navbar{
+        background-color: #004c74;
+        width: 100%;
+        height: 2rem;
+        justify-content: center;
+    }
+     .category .navbar .cat{
+        color: whitesmoke;
+        /* margin: -1rem 2rem; */
+    }/*
+    #cart{
+        display: flex;
+        flex-direction: row;
+        font-size:1.1rem;
+        margin-left: 15rem;
+    } */
+    /* @media only screen and (min-width: 995px) and (max-width: 1200px){
+        .category{
+            width: 100%;
+        }
+        .category .navbar .cat{
+            color: whitesmoke;
+            margin: -1rem 2rem;
+        }
+        #cart{
+            font-size:1.1rem;
+            margin-left: 10rem;
+        }
+    } */
+
+/* #################################### End-Header #################################### */
+/* #################################### Start-Footer #################################### */
+
+.footer-basic {
+    padding:40px 0;
+    /* background: color #fd5c5c; */
+    background-color: #fd5c5c;
+    color:#004c74;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+    color: #d1f5ff;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #004c74;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#004c74;
+    /* color:#D1F5FF; */
+    margin-bottom:0;
+  }
+  
+  /* Credit to https://epicbootstrap.com/snippets/footer-basic */
+
+/* #################################### End-footer #################################### */
